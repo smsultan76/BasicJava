@@ -1,0 +1,12 @@
+package com.mycompany.basicinputoutput;
+import java.util.Scanner;
+public class IntIO {
+    public static void main(String[] args) {
+        int a;
+        Scanner Int=new Scanner(System.in);
+        System.out.println("Enter a value: ");
+        a=Int.nextInt();
+        System.out.println("Entered Integer valu is = "+a);
+    }
+    
+}
