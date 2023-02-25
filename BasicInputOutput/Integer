@@ -8,5 +8,4 @@ public class IntIO {
         a=Int.nextInt();
         System.out.println("Entered Integer valu is = "+a);
     }
-    
 }
