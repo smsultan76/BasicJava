@@ -1,6 +1,6 @@
 package com.mycompany.basicinputoutput;
 import java.util.Scanner;
-public class CharIO {
+public class CharacterInputOutput {
     public static void main(String[] args) {
         Scanner Input= new Scanner(System.in);
         System.out.println("Enter a Charecter value: ");

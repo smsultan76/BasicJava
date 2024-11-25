@@ -1,6 +1,6 @@
 package com.mycompany.basicinputoutput;
 import java.util.Scanner;
-public class DoubleIO {
+public class DoubleInputOutput {
     public static void main(String[] args) {
         Scanner Input= new Scanner(System.in);
         double a;
