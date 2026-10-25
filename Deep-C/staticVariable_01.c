@@ -3,7 +3,6 @@
 void test(void) {
     static int a = 0;
     int b = 0;
-
     a++;
     b++;
 
@@ -14,6 +13,5 @@ int main(void) {
     test();
     test();
     test();
-
     return 0;
 }
