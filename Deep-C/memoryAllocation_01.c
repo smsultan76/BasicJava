@@ -9,7 +9,9 @@ void main() {
     };
 
     struct xx *s = malloc(sizeof(struct xx));
-    printf("%d\n", sizeof(s));
+    printf("Pointer size: %zu bytes\n", sizeof(s));
+    printf("Structure size: %zu bytes\n", sizeof(struct xx));
+    printf("Size through pointer: %zu bytes\n", sizeof(*s));
     
     s->x = 3;
     strcpy(s->name, "hello");
