@@ -4,10 +4,13 @@
 
 void main() {
     struct xx {
-        int x=3;
-        char name[] = "hello";
+        int x;
+        char name[6];
     };
+
     struct xx *s = malloc(sizeof(struct xx));
+    printf("%d\n", sizeof(s));
+    
     printf("%d", s->x);
     printf("%s", s->name);
 }
