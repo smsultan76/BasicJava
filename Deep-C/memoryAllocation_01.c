@@ -11,6 +11,9 @@ void main() {
     struct xx *s = malloc(sizeof(struct xx));
     printf("%d\n", sizeof(s));
     
-    printf("%d", s->x);
+    s->x = 3;
+    strcpy(s->name, "hello");
+
+    printf("%d\n", s->x);
     printf("%s", s->name);
 }
